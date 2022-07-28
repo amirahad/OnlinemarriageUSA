@@ -35,8 +35,6 @@
     <!-- Plugin Css file end -->
 
     <!-- Custom Css file Start -->
-    <link rel="stylesheet" href="ind/css/style.css" />
-    <link rel="stylesheet" href="ind/css/responsive.css" />
 </head>
 <body>
 
@@ -107,15 +105,19 @@
         <div class="container">
           <div class="row">
             <div class="col-md-4 col-sm-12">
+              
                 <div class="bio_data">
-                    
-                    <div class="bio_data_img">
-                        <img src="img/female.jpeg" alt="biodata" class="img-fluid">
+                  <div class="percent">60% Matched</div>
+                    <div class="bio_data_img for_border" data-percent="60">
+                        <img src="img/female.jpeg" alt="biodata" class="img-fluid rounded-circle">
                     </div>
                     <div class="bio_data_text py-3">
                         <h3>Bio Data No: <span> 12345</span></h3>
                          
                     </div>
+                    <div class="button mt-4">
+                      <button class="btn3">Send Message</button>
+                  </div>
                     <div class="data_table">
                         <table class="table">
                             <tbody>
@@ -194,9 +196,9 @@
                     </div>
                     <div
                       id="collapseCloseOne"
-                      class="panel-collapse collapse text-start show"
+                      class="panel-collapse collapse show"
                       role="tabpanel"
-                      aria-labelledby="headingSeven"
+                      aria-labelledby="headingEight"
                     >
                       <div class="panel-body py-4 px-4">
                         <div class="data_table2">
@@ -204,7 +206,7 @@
                                 <tbody>
                                     <tr>
                                         <td>Permanent Address :</td>
-                                        <td>Lorem, ipsum dolor. Lorem ipsum dolor sit Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, alias.</td>
+                                        <td>Lorem, ipsum dolor.</td>
                                       </tr>
                                       <tr>
                                         <td>Present Address :</td>
@@ -217,6 +219,7 @@
                                 </tbody>
                               </table>
                         </div>
+                        
                       </div>
                     </div>
                   </div>
@@ -664,14 +667,23 @@
               </div>
             </div>
             <div class="col-md-4">
-              <div class="widgts">
+              <div class="icons">
                 
                 <ul>
                   <li>
-                    <a href="#" class="link">Our Facebook Page</a>
+                    <a href="#" class="link"><i class="fa-brands fa-facebook-square"></i></a>
                   </li>
                   <li>
-                    <a href="#" class="link">Join Facebook Group</a>
+                    <a href="#" class="link"><i class="fa-brands fa-instagram-square"></i></a>
+                  </li>
+                  <li>
+                    <a href="#" class="link"><i class="fa-brands fa-twitter-square"></i></a>
+                  </li>
+                  <li>
+                    <a href="#" class="link"><i class="fa-brands fa-youtube-square"></i></a>
+                  </li>
+                  <li>
+                    <a href="#" class="link"><i class="fa-brands fa-twitter-square"></i></a>
                   </li>
                 </ul>
               </div>
@@ -680,18 +692,46 @@
           </div>
           
         </div>
+        <div class="container mt-5">
+          <div class="row">
+            <div class="col-md-12">
+              <p class="developed">Developed by <a href="https://softronixs.com/" target="_blank" rel="noopener noreferrer">Softronixs</a></p>
+          </div>
+        </div>
       </section>
 
 
+
+
+
+
+    
 
 
       
 
     <!-- default js file Start -->
     <script src="ind/js/jquery.min.js"></script>
+    <link rel="stylesheet" href="ind/css/style.css" />
+    <link rel="stylesheet" href="ind/css/responsive.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/easy-pie-chart/2.1.6/jquery.easypiechart.min.js" integrity="sha512-DHNepbIus9t4e6YoMBSJLwl+nnm0tIwMBonsQQ+W9NKN6gVVVbomJs9Ii3mQ+HzGZiU5FyJLdnAz9a63ZgZvTQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="ind/js/popper.min.js"></script>
     <script src="ind/js/bootstrap.min.js"></script>
     <script src="ind/js/custom.js"></script>
+
+    <!-- <script>
+      $(function() {
+        $('.for_border').easyPieChart({
+          barColor: '#AD277C',
+          trackColor: '#5A0763',
+          scaleColor: false,
+          lineCap: 'circle',
+          lineWidth:15,
+          size: 165,
+          animate: 3000,
+        });
+      });
+    </script> -->
     
     <!-- default js file end -->
 </body>

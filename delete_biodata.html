@@ -41,72 +41,64 @@
 <body>
 
 
-    <header class="header_section" id="myHeader">
-        <div class="container">
-          <nav class="navbar navbar-expand-lg navbar-light">
-            <a class="navbar-brand" href="index.html">
-              <img
-                src="img/logo.png"
-                alt="logo"
-                class="img-fluid logo d-block"
-              />
-              <!-- <h3>Logo</h3> -->
-            </a>
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-toggle="collapse"
-              data-target="#navbarNav"
-              aria-controls="navbarNav"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span class="fa fa-bars"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav ml-auto">
-                <li class="nav-item pr-2">
-                  <a href="index.html" class="nav-link">Home </a>
-                </li>
-                <li class="nav-item pr-2">
-                  <a href="about.html" class="nav-link">About Us</a>
-                </li>
-                <li class="nav-item pr-2">
-                  <a href="faq.html" class="nav-link">FAQ</a>
-                </li>
-                <li class="nav-item pr-2">
-                  <a href="tutorial.html" class="nav-link">Tutorial</a>
-                </li>
-                <li class="nav-item pr-2">
-                  <a href="contact.html" class="nav-link">Contact Us</a>
-                </li>
-              </ul>
-              <!-- <a href="#" class="nav-item ml-auto dropdown1">
-                <div class="fix">
-                  <p class="login dropbtn">
-                    <i class="fa-solid fa-user pr-2"></i>Profile
-                  </p>
-                  <div class="dropdown-content animate__animated  animate__fadeIn">
-                      <a href="#">Link 1</a>
-                      <a href="#">Link 2</a>
-                      <a href="#">Link 3</a>
-                    </div>
-                </div>
-              </a> -->
-              <div class="dropdown1 nav-item ml-auto">
-                  <a class="dropbtn"><i class="fa-solid fa-user pr-2"></i>Profile</a>
-                  <div class="dropdown-content">
-                    <a href="#">Edit BioData</a>
-                    <a href="#">My BioData</a>
-                    <a href="#">Delete BioData</a>
-                    <a href="#">Settings</a>
-                    <a href="#">LogOut</a>
-                  </div>
-                </div>
+  <header class="header_section" id="myHeader">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="index.html">
+          <img
+            src="img/logo.png"
+            alt="logo"
+            class="img-fluid logo d-block"
+          />
+          <!-- <h3>Logo</h3> -->
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="fa fa-bars"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item pr-2">
+              <a href="index.html" class="nav-link">Home </a>
+            </li>
+            <li class="nav-item pr-2">
+              <a href="about.html" class="nav-link">About Us</a>
+            </li>
+            <li class="nav-item pr-2">
+              <a href="faq.html" class="nav-link">FAQ</a>
+            </li>
+            <li class="nav-item pr-2">
+              <a href="tutorial.html" class="nav-link">Tutorial</a>
+            </li>
+            <li class="nav-item pr-2">
+              <a href="contact.html" class="nav-link">Contact Us</a>
+            </li>
+          </ul>
+          <div class="dropdown1 nav-item ml-auto">
+            <ul>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropbtn" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa-solid fa-user pr-2"></i>Profile</a>
+              <div class="dropdown-menu  animate__animated animate__fadeIn" aria-labelledby="navbarDropdown">
+                <a href="#" class="dropdown-item">Edit BioData</a>
+                <a href="biodata.html" class="dropdown-item">My BioData</a>
+                <a href="delete_biodata.html" class="dropdown-item">Delete BioData</a>
+                <a href="settings.html" class="dropdown-item">Settings</a>
+                <a href="index.html" class="dropdown-item">LogOut</a>
+              </div>
+            </li>
+          </ul>
             </div>
-          </nav>
         </div>
-      </header>
+      </nav>
+    </div>
+  </header>
 
 
     
@@ -209,14 +201,23 @@
               </div>
             </div>
             <div class="col-md-4">
-              <div class="widgts">
+              <div class="icons">
                 
                 <ul>
                   <li>
-                    <a href="#" class="link">Our Facebook Page</a>
+                    <a href="#" class="link"><i class="fa-brands fa-facebook-square"></i></a>
                   </li>
                   <li>
-                    <a href="#" class="link">Join Facebook Group</a>
+                    <a href="#" class="link"><i class="fa-brands fa-instagram-square"></i></a>
+                  </li>
+                  <li>
+                    <a href="#" class="link"><i class="fa-brands fa-twitter-square"></i></a>
+                  </li>
+                  <li>
+                    <a href="#" class="link"><i class="fa-brands fa-youtube-square"></i></a>
+                  </li>
+                  <li>
+                    <a href="#" class="link"><i class="fa-brands fa-twitter-square"></i></a>
                   </li>
                 </ul>
               </div>
@@ -224,6 +225,12 @@
             
           </div>
           
+        </div>
+        <div class="container mt-5">
+          <div class="row">
+            <div class="col-md-12">
+              <p class="developed">Developed by <a href="https://softronixs.com/" target="_blank" rel="noopener noreferrer">Softronixs</a></p>
+          </div>
         </div>
       </section>
 

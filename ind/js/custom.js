@@ -16,6 +16,19 @@
 //   });
 // })
 
+
+$(function() {
+  $('.for_border').easyPieChart({
+    barColor: '#A70808',
+    trackColor: '#fff',
+    scaleColor: false,
+    lineCap: 'circle',
+    lineWidth:20,
+    size: 165,
+    animate: 3000,
+  });
+});
+
 let mybutton = document.getElementById("btn-back-to-top");
 
 // When the user scrolls down 20px from the top of the document, show the button
